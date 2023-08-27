@@ -3,7 +3,7 @@
 @section('body')
     <h1 class="mb-0">Add Book</h1>
     <hr />
-    <form action="{{ route('product.store') }}" method="POST">
+    <form action="{{ route('tarefa.store') }}" method="POST">
         @csrf
         <div class="row mb-3">
             <div class="col">
@@ -15,7 +15,7 @@
         </div>
         <div class="row mb-3">
             <div class="col">
-                <input type="text" name="product_code" class="form-control" placeholder="Product Code">
+                <input type="text" name="tarefa_code" class="form-control" placeholder="Tarefa Code">
             </div>
             <div class="col">
                 <textarea class="form-control" name="description" placeholder="Descriptoin"></textarea>
