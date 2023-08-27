@@ -64,7 +64,7 @@ class TarefaController extends Controller
  
         $tarefa->update($request->all());
  
-        return redirect()->route('tarefa.index')->with('success', 'tarefa editada com sucesso');
+        return redirect()->route('tarefa.index')->with('success', 'Tarefa editada com sucesso!');
     }
  
     /**
@@ -76,6 +76,6 @@ class TarefaController extends Controller
  
         $tarefa->delete();
  
-        return redirect()->route('tarefa.index')->with('success', 'tarefa deletada com sucesso');
+        return redirect()->route('tarefa.index')->with('success', 'Tarefa deletada com sucesso!');
     }
 }
