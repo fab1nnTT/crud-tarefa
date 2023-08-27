@@ -10,10 +10,8 @@ return new class extends Migration
     {
         Schema::create('tarefas', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('price');
-            $table->string('tarefa_code');
-            $table->text('description');
+            $table->string('titulo');
+            $table->string('descricao');
             $table->timestamps();
         });
     }

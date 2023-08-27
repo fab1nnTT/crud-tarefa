@@ -10,9 +10,7 @@ class Tarefa extends Model
     use HasFactory;
  
     protected $fillable = [
-        'title',
-        'price',
-        'tarefa_code',
-        'description'
+        'titulo',
+        'descricao'
     ];
 }
