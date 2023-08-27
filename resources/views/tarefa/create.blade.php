@@ -15,7 +15,7 @@
         </div>
         <div class="row">
             <div class="d-grid">
-                <button class="btn btn-primary">Enviar</button>
+                <button class="btn btn-primary">Adicionar</button>
             </div>
         </div>
     </form>
