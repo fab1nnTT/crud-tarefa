@@ -32,7 +32,7 @@ class TarefaController extends Controller
     {
         Tarefa::create($request->all());
  
-        return redirect()->route('tarefa.index')->with('success', 'Tarefa added successfullyy');
+        return redirect()->route('tarefa.index')->with('success', 'Tarefa adicionada com sucesso');
     }
  
     /**
