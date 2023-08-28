@@ -17,7 +17,7 @@
                 <th>#</th>
                 <th>Título</th>
                 <th>Descrição</th>
-                <th>Action</th>
+                <th>Ação</th>
             </tr>
         </thead>
         <tbody>
