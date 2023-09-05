@@ -52,7 +52,7 @@ class TarefaController extends Controller
     {
         $tarefa = Tarefa::findOrFail($id);
  
-        return view('tarefa.edit', compact('tarefa'));
+       
     }
  
     /**
